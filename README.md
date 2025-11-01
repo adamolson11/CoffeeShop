@@ -10,7 +10,8 @@ To review the live website, you can deploy it to Vercel (free for hobby projects
 1. **One-Click Deploy** (Recommended):
    - Click this button: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/adamolson11/CoffeeShop)
    - Sign in with your GitHub account
-   - Vercel will automatically detect the Next.js app in the `coffeeshop` folder
+   - **Important**: Set the root directory to `coffeeshop` during setup
+   - Vercel will detect the Next.js app and deploy it
    - You'll get a live URL instantly (e.g., `https://your-project.vercel.app`)
 
 2. **Manual Deploy via Vercel CLI**:
